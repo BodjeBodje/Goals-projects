@@ -1,0 +1,3 @@
+cat logfile | grep ERROR | sed 's/ERROR/ISSUE/' > issues
+
+touch file-{1..5} | mkdir dir-{1..5} | ls -l | grep '^d'| awk '{print $1  $9}' | sort > output

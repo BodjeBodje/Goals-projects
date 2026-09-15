@@ -1,0 +1,30 @@
+Use this command anywhere to put something in you file 
+    echo "I m here " >> /home/devops/devops1/scripts/crontab-job.log
+use crontab 
+    crontab -e
+    * * * * * echo "I m here " >> /home/devops/devops1/scripts/crontab-job.log 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
+I m here 
