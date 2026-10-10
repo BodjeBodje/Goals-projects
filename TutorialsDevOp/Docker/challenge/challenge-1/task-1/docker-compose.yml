@@ -1,0 +1,6 @@
+services:
+  task-1:
+    container_name: task-1
+    build: .
+    ports:
+      - "9090:80"

@@ -1,0 +1,9 @@
+#docker build -t amadou11/piit-1:v1 .
+#echo "password" | docker login -u amadou --password-stdin
+#echo "past token personal from docker hub" | docker login -u amadou --password-stdin
+docker push amadou11/piit-1:v1
+docker run -p 3008:80 amadou11/piit-1:v1 (http://ip:3008)
+
+Update images
+docker tag ubuntu:2.0 amadou11/piit-1:v8 (old image is ubuntu:2.0 and new is amadou11/piit-1:v8)
+

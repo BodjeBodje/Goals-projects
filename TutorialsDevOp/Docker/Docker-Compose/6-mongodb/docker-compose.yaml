@@ -1,0 +1,30 @@
+services:
+  mongodb:
+    container_name: mongodb
+    image: mongo:7.0
+    environment:
+      MONGODB_INITDB_ROOT_USERNAME: bouriahmongodb
+      MONGODB_INITDB_ROOT_PASSWORD: Bouriah@123
+      MONGO_INITDB_DATABASE: appdb
+    ports:
+      - "27017:27017"
+
+
+
+# services:
+#   mongodb:
+#     image: mongo:7.0
+#     container_name: mongodb
+#     restart: unless-stopped
+#     ports:
+#       - "27017:27017"
+#     environment:
+#       MONGO_INITDB_ROOT_USERNAME: admin
+#       MONGO_INITDB_ROOT_PASSWORD: admin123
+#       MONGO_INITDB_DATABASE: appdb
+
+
+# docker run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin123 mongo
+# docker exec -it mongodb mongosh -u admin -p admin123 --authenticationDatabase admin
+# use appdb
+# db.stats()
