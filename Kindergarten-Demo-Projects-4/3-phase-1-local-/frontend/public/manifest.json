@@ -1,0 +1,15 @@
+{
+  "short_name": "Kindred",
+  "name": "Kindred School Registry",
+  "icons": [
+    {
+      "src": "kindred.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#8570b3",
+  "background_color": "#faf9fc"
+}
