@@ -186,7 +186,7 @@
     #export MONGODB_URI="mongodb://bouriah:Bouriah123@192.168.45.128:27017/school-app?authSource=admin"
 -   `export DATABASE_NAME="kindergarten"` 
     #export DATABASE_NAME="school-app"
-    
+    ---------------------------------
 -   **Run the Go application**
     
 
