@@ -9,11 +9,29 @@ services:
     build: ./employeeservice
     ports:
       - "5003:5003"
-  # studentservice:
-  #   container_name: studentservice-back
-  #   build: ./studentservice
-  #   ports:
-  #     - "5002:5002"
+  profileservice:
+    container_name: profileservice-back
+    build: ./profileservice
+    ports:
+      - "5004:5004"
+    stdin_open: true
+    tty: true
+
+  studentservice:
+    container_name: studentservice-back
+    build: ./studentservice
+    ports:
+      - "5001:5001"
+  
+  teacherservice:
+    container_name: teacherservice-back
+    build: ./teacherservice
+    ports:
+      - "5002:5002"
+
+  thumbnailworker:
+    container_name: thumbnailworker-back
+    build: ./thumbnailworker
 
 
   mongo:
