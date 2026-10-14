@@ -59,7 +59,7 @@ cd frontend
 npm i
 npm start
 ```
-
+F
 Open [http://localhost:3000](http://localhost:3000). API addresses default to
 ports `5001`–`5004`; change them in `frontend/.env` and restart if needed.
 
