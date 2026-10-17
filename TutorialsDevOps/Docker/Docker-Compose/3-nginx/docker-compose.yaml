@@ -1,8 +1,0 @@
-services:
-  webserver:
-    container_name: nginx
-    # image: nginx:latest
-    build: .
-    ports:
-      - "3000:80"
-    

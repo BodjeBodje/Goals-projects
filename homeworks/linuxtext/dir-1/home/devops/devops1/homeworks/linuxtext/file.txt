@@ -1,7 +1,0 @@
-INFO Application started
-WARN Disk usage is high
-ERROR Database connection failed
-INFO Retrying connection
-ERROR Authentication failed
-WARN Request took too long
-INFO Application stopped

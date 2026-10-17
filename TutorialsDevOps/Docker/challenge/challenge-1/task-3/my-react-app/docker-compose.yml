@@ -1,6 +1,0 @@
-services:
-  wwebserver:
-    container_name: react-app
-    image: amadou11/task-3:latest
-    ports:
-      - "9090:80"
