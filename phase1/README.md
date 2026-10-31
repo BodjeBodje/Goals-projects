@@ -1,5 +1,5 @@
 #Diagram for aws setup
-![alt text](image.png)
+![alt text](image-1.png)
 
 #Install package and run backend and frontend apps in your machine 
     ##apt update
