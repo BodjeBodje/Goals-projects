@@ -94,7 +94,7 @@ mongoose.connect(
       console.error('FAILED TO CONNECT TO MONGODB,did you added the mongodb url?');
       console.error(err);
     } else {
-      console.log('CONNECTED TO MONGODB!!');
+      console.log('CONNECTED TO MONGODB!! from update!!!!');
       app.listen(5000);
     }
   }
